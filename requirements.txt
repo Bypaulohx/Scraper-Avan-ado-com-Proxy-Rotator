@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+selenium
+PyYAML
+urllib3
+pandas
+tqdm
+psycopg2-binary

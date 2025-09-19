@@ -1,0 +1,11 @@
+chrome_driver_path: "./drivers/chromedriver"  # Ajuste ao seu path local se não usar Docker
+timeout: 30
+max_retries: 3
+rate_limit_per_proxy_per_minute: 30
+storage:
+  type: postgres  # options: csv, json, sqlite, postgres
+  # for csv/json/sqlite: path below will be used; for postgres the DATABASE_URL env var is used
+  path: ./data/output.csv
+proxies_file: ./proxies/list.txt
+user_agent: "Mozilla/5.0 (compatible; ScraperBot/1.0; +https://example.com/bot)"
+respect_robots: true
