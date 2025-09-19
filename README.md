@@ -23,6 +23,24 @@ docker compose logs -f app
 docker compose exec app python src/main.py
 ```
 
+## Estrutura de Pasta
+```
+scraper-proxy-rotator/
+├─ .vscode/
+│ └─ settings.json
+├─ src/
+│ ├─ main.py
+│ ├─ config.yaml
+│ ├─ proxy_manager.py
+│ ├─ robots_checker.py
+│ ├─ fetcher_requests.py
+│ ├─ fetcher_selenium.py
+│ ├─ extractor.py
+│ └─ storage.py
+├─ requirements.txt
+└─ .gitignore
+```
+
 ## Estrutura
 - `src/` — código fonte Python
 - `Dockerfile` — imagem da aplicação
