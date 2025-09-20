@@ -47,6 +47,8 @@ scraper-proxy-rotator/
 - `docker-compose.yml` — define serviços `app` e `db` (Postgres)
 - `.env.example` — variáveis de ambiente
 
-## Observações
-- O storage está configurado para `postgres` por padrão no `src/config.yaml`.
-- Para desenvolvimento local sem Docker, instale dependências: `pip install -r requirements.txt` e rode `python src/main.py`.
+> ⚠️ **Observações**:
+O storage está configurado para `postgres` por padrão no `src/config.yaml`.
+Para desenvolvimento local sem Docker, instale dependências: `pip install -r requirements.txt` e rode `python src/main.py`.
+
+---
